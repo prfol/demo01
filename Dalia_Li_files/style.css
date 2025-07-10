@@ -48,6 +48,23 @@ div.aligncenter {
   color: white;
 }
 
+.video-container-short {
+	position: relative;
+	width: 100%;
+	padding-bottom: 177.77%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 0.5rem; 
+}
+
+.video-container-short iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 body {
 	color: #6a6c6f !important;
 	background-color: #1F507C !important;
